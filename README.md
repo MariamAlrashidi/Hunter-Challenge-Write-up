@@ -32,6 +32,9 @@
 ## الحل كالتالي:
 
 
+بالبداية التحدي عبارة عن مجموعة أسئلة "30 سؤال" ولمعرفة حلها لابد من إجراء عدة عمليات تحليل
+
+## 1-	What is the computer name of the suspect machine?
 
 
 سنبدأ من خلال تحليل ملفات سجل النظام أو ال WindowsRegistry  بالأجوبة على أول 8 أسئلة بإستخدام الأداتين Registry Explorer و Reg Ripper
@@ -74,10 +77,11 @@
  الأن نبدأ بحل الأسئلة فأول سؤال كان يطلب اسم الكمبيوتر لجهاز المشتبه به , لحل هذا السؤال راح يكون في مسار 
  
  (config\SYSTEM: ControlSet001\Control\ComputerName\ComputerName)
+ 
 
-## 1-	What is the computer name of the suspect machine?
+حل السؤال الأول سيكون : 4ORENSICS
+ 
 
-4ORENSICS
 
 
 ![Computer Name](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/computer%20Name.jpg)
