@@ -94,6 +94,9 @@
 
 
 
+
+## 2- What is the computer IP?
+
 عشان نعرف ال Ip الخاص في المشتبه به في الغالب نتوجه لخانة السيرفر اللي تعامل معاها .. 
 راح يكون المسار كالتالي :
 
@@ -102,12 +105,12 @@
 ![IP](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/ip.jpg)
 
 
-## 2- What is the computer IP?
 
-10.0.2.15
-
+حل السؤال الثاني سيكون كالتالي : 10.0.2.15
 
 
+
+## 3- What was the DHCP LeaseObtainedTime?
 
 
 السؤال الثالث فكرته إنه يتم حساب كم إستغرق المشتبه به بإن الip as live على DHCP في نفس صفحة السؤال السابق في هذا الجواب وحتى يتم حساب المدة يتم إستخدام هذا الموقع 
@@ -125,7 +128,7 @@
 ![DHCP](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/DHCP%20reader.jpg)
 
 
-## 3- What was the DHCP LeaseObtainedTime?
+
 
 
 
