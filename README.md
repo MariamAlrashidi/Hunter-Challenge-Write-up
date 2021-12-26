@@ -39,14 +39,14 @@
 بعد مايتم تنزيل التحدي على الجهاز وفك الضغط , ستكون الخطوات مبدئياَ بهذا الشكل من خلال FTK Imager سيتم تحليل الImage 
 
 
-![Image file](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/image%20file.jpg)
+![Image file](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/image%20file.jpg)
 
 
 
 بعد كذا نحدد الملف المطلوب كما هو موضّح بالصورة
 
 
-![Image file01](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/image%20file01.jpg)
+![Image file01](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/image%20file01.jpg)
 
 
 
@@ -55,7 +55,7 @@
  
  
  
- ![Image file02](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/image%20file02.jpg)
+ ![Image file02](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/image%20file02.jpg)
  
  
  
@@ -64,7 +64,7 @@
 بالتعامل الأن مع برنامج Registry Explorer للإستكمال عملية تحليل التي تمت بشكل غير مصرّح له 
 سنقوم بإختيار ملف الSystem
 
-![System](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/System.jpg)
+![System](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/System.jpg)
 
 
 
@@ -79,7 +79,7 @@
 4ORENSICS
 
 
-![Computer Name](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/computer%20Name.jpg)
+![Computer Name](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/computer%20Name.jpg)
 
 
 
@@ -92,7 +92,7 @@
 
 (config\SYSTEM: ControlSet001\Services\Tcpip\Parameters\Interfaces\{8CB9FBF6-AE*****}
 
-![IP](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/ip.jpg)
+![IP](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/ip.jpg)
 
 
 ## 2- What is the computer IP?
@@ -109,13 +109,13 @@
 
 
 1- هنا قيمة قبل التحويل 
-![DHCP](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/DHCP.jpg)
+![DHCP](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/DHCP.jpg)
 
 
 
 2- هنا قيمتها كوقت إيجار المشتبه به للDHCP
 
-![DHCP](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/DHCP%20reader.jpg)
+![DHCP](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/DHCP%20reader.jpg)
 
 
 ## 3- What was the DHCP LeaseObtainedTime?
@@ -126,14 +126,14 @@
 السؤال الرابع يتطلب مني معرفة الSID الذي إستعمله المشتبه به ولمعرفة ذلك سنتحقق من ملف الSAM  هذا الملف عبارة عن Security Account Manager ملف عبارة عن قاعدة بيانات يحتوي أو يخزّن كلمات مرور المستخدمين 
 
 بالبداية نحدد ملف الSam بإستخدام برنامج الRegistry Explorer
-![Sam File]https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Sam%20file.jpg)
+![Sam File](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Sam%20file.jpg)
 
 
  نقدر نستخرجه من المسار التالي :
 
 (config\SAM: SAM\Domains\Account\Aliases\Members\S-1-5-21-2489440558-2754304563-710705792)
 
-![sid](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/sid.jpg)
+![sid](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/sid.jpg)
 
 ## 	4- What is the computer SID?
  S-1-5-21-2489440558-2754304563-710705792
@@ -142,13 +142,13 @@
  السؤال الخامس يتطلب مني معرفة إصدار نظام التشغيل الخاص بالمشتبه به ولمعرفة ذلك يكون بتحديد الSoftware الخاص به
  
 
-![Software](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/software.jpg)
+![Software](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/software.jpg)
 
 
 ثم تحديد المسار التالي :
 (config\SOFTWARE: Microsoft\Windows NT\CurrentVersion)
 
-![8.1](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/8.1.jpg)
+![8.1](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/8.1.jpg)
 
 ## 5-  	What is the Operating System(OS) version?
 8.1
@@ -157,10 +157,10 @@
 السؤال السادس بحثنا عن طريق المسار التالي لإيجاد الtimezone
 (config\SYSTEM: ControlSet001\Control\TimeZoneInformation)
 
-![time zone](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/tomezone.jpg)
+![time zone](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/tomezone.jpg)
 
 بعذ كذا نسخنا الKey value الخاصة بالtimezone 
-![time zone](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/pts%20timezone.png)
+![time zone](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/pts%20timezone.png)
 
 
 
@@ -174,19 +174,19 @@
 
 الصورة هذه عملت في خانة ال Hive File ملف الSAM 
 وخانة الReport file أنشاء ملف نصي بأسم Real log كما هو موضح بالصورة في الأسفل
-![REAL log 01](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Real%20Log01.jpg)
+![REAL log 01](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log01.jpg)
 
 
 بعد كذا عملت Rip! بحيث يستخرج لي معلومات الLog كما هو ظاهر في الصورة باللأسفل
 
 
-![REAL log 02](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Real%20Log02.jpg)
+![REAL log 02](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log02.jpg)
 
 
 في الملف الأخير ظهر لي جميع المعلومات كملف نصي كما أنشاءته بالسابق , ويظهر لي جواب السؤال السابع وهو عدد دخول المشتبه به وهو 3 مرات
 
 
-![REAL log 03](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Real%20Log03.jpg)
+![REAL log 03](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log03.jpg)
 
 
 ## 7- How many times did this user log on to the computer?
@@ -196,7 +196,7 @@
 
 بعد ماعرفنا كم مرة سجل دخول الأن نحاول نعرف آخر مرة تم تسجيل الدخول وهو ظاهر لنا بالملف النصي الذي إستخرجناه سابقاً
 
-![REAL log 03](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Real%20Log03.jpg)
+![REAL log 03](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log03.jpg)
 
 
 ## 8- When was the last login time for the discovered account? Format: one-space between date and time
@@ -207,7 +207,7 @@
  فكرة السؤال التاسع قائم على ال  “Network Scanner” كان على كمبوتر بيصير عليه هذا الScanner فمطلوب نعرف متى آخر مرة استخدمه المشتبه به 
  
  عشان نعرف وين صار فيه هذا ال “Network Scanner” راح نرجع للFTK Image نستخرج الملفات الموجودة في مجلد (windows/Prefetch) 
- ![Prefetch01](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Prefetch01.jpg)
+ ![Prefetch01](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Prefetch01.jpg)
 
 
 ومن ثم إستخدمت اداءة Winprefetchview لتحليل أي ملف تم عمل الNetwork Scanner من خلاله 
@@ -224,25 +224,25 @@
  
 
 من خلال اداءة ال FTK Image إستخرجنا ملف الUsers لمعرفة كل الملفات تحت اسم المستخدم Hunter
- ![export users](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/export%20users.jpg)
+![export users](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/export%20users.jpg)
 
 على سطح المكتب أو الDesktop حصلت ملف إسمه nmapscan.xml وهو عبارة عن نسخة أو ملف التقرير الناتج عن عملية الScanner
 داخل الملف كان فيه تفاصيل عن وقت بداية ونهاية عملية الScan 
 
 وقت البدء : 
 
- ![start](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/starting.jpg)
+ ![start](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/starting.jpg)
  
  وقت الإنتهاء :
  
-  ![end](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/end.jpg)
+  ![end](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/end.jpg)
   
  ## 10 - When did the port scan end? (Example: Sat Jan 23 hh:mm:ss 2016)
  Tue Jun 21 05:12:09 2016
   
 نقدر من ملف الnmapscan.xml  نعرف عدد الports  المفتوحة 
 
-  ![ports](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/ports.jpg)
+  ![ports](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/ports.jpg)
   
   
  ## 11 : How many ports were scanned?
@@ -250,7 +250,7 @@
  
  من نفس الملف راح نعرف عدد الports اللي تكون في حالة الopen
  
- ![open ports](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/open%20ports.jpg)
+ ![open ports](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/open%20ports.jpg)
  
  
  ## 12 : What ports were found "open"?(comma-separated, ascending)?
@@ -259,7 +259,7 @@
   
   الأن مطلوب مننا نعرف نوع أو إصدار الNetwork Scannerاللي يشتغل على الكمبيوتر
   ولمعرفة الإصدار من نفس الملف السابق يتضح نوع الإصدار
-  ![verison](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/verison.jpg) 
+  ![verison](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/verison.jpg) 
    
 ## 13- What was the version of the network scanner running on this computer?
 
@@ -268,7 +268,7 @@
  
  مطلوب مننا إظهار الموظف اللي حاور مستخدم عبر الSkype 
  بالأول راح نستخرج ملف الSkype من خلال الFTK Image 
-![skype](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/skype01.jpg) 
+![skype](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skype01.jpg) 
 
 بعد كذا نستخدم أداء Skyperious
 
@@ -276,7 +276,7 @@
 
 من خلال البحث في ملفات قاعدة البيانات في مجلد الSkype وجدنا المستخدم الآخر الذي تحاور معاها موظفنا 
 
-![skype User](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/skypeuser.jpg) 
+![skype User](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skypeuser.jpg) 
 
 ## 14 - The employee engaged in a Skype conversation with someone. What is the skype username of the other party?
 
@@ -284,7 +284,7 @@
  
  الخطوة التالية بحثنا أيضاً بنفس الأداءة نقدر نوصل للمحادثة اللي تمت في Skype وبالتالي راح نوصل لجواب السؤال الآخر عن أي برنامج اتفقوا عليه
  
- ![teamv](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/skypeuserteamv.jpg) 
+ ![teamv](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skypeuserteamv.jpg) 
  
  
  ## 15 - What is the name of the application both parties agreed to use to exfiltrate data and provide remote access for the external attacker in their Skype conversation?
@@ -294,7 +294,7 @@
  
  من نفس الأداء نستخرج منه إيميل الموظف الذي تعاون مع المشتبه به 
  
-  ![employ](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/employe.jpg) 
+  ![employ](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/employe.jpg) 
 
 
 ## 16 - What is the Gmail email address of the suspect employee?
@@ -307,16 +307,16 @@
 عشان نحل هذا السؤال راح نتعامل مع أداء Stellar Repair for Outlook لتحليل ملفات البريد الإلكتروني 
 لكن قبل التعامل معاها لابد من إستخراج الملفات بإستخدام الFTK Image راح استخرج مجلد الUsers كامل
 
-  ![export backup](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/export%20backup.jpg) 
+  ![export backup](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/export%20backup.jpg) 
 
 
 الأن نحدد الملف اللي نحتاج نسترجعه من خلال اداء Stellar Repair for Outlook 
  
-![backup](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/backup.jpg)
+![backup](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/backup.jpg)
 
 راح نلقى الجواب في ملف الايميلات المحذوفة
  
-![home network](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/home-network-design.jpg)
+![home network](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/home-network-design.jpg)
 
 جواب السؤال الماضي كالتالي 
 
@@ -332,7 +332,7 @@
 
 بالرجوع للFTK Image يوجد لدينا ملف واضح لدينا بإمتداد PDF  وهذا هو الجواب 
 
-![pdf](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/PDF01.jpg)
+![pdf](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/PDF01.jpg)
 
 
 
@@ -354,7 +354,7 @@ Ryan_VanAntwerp_thesis.pdf
 من خلال المسار التالي :
 (config\SYSTEM: ControlSet001\Enum\USB\ROOT_HUB20)
 
-![usb](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/usb.jpg)
+![usb](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/usb.jpg)
 
 
 ## 20 - What are the serial numbers of the two identified USB storage?
@@ -395,7 +395,7 @@ Ryan_VanAntwerp_thesis.pdf
  
  فوجدنا بالإيميلات المُرسلة كالتالي :
  
- ![pic](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Pictures01.jpg)
+ ![pic](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Pictures01.jpg)
  
  
  
@@ -425,7 +425,7 @@ Ryan_VanAntwerp_thesis.pdf
    للجواب على هذا السؤال نعود ل FTK Image لمعرفة المجلدات التي بداخل مجلد الRecent
    راح تكون في المسار التالي 
   (%USERPROFILE%\AppData\Roaming\Microsoftg\Windows\Recent\AutomaticDestinations-ms)   
-  ![Recent](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/main/Recent.jpg)                                                                          
+  ![Recent](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Recent.jpg)                                                                          
   فجواب السؤال السابق هو :  AutomaticDestinations-ms 
                                                                               
    
