@@ -430,7 +430,7 @@ Ryan_VanAntwerp_thesis.pdf
  
  
   ## 22 - How many prefetch files were discovered on the system?
- فكرة هذا السؤال بإننا نحذف الملفات ذات القيمة أو الحجم صفر , فلمن نحذفها يتبقى عدد الملفات الظاهر في الصورة
+ فكرة هذا السؤال بإننا نحذف الملفات ذات القيمة أو الحجم صفر , فلمن نحذفها يتبقى عدد الملفات الظاهر في أسفل الصورة
  
   ![174](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/174.jpg)
  
