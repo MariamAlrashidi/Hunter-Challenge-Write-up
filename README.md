@@ -163,7 +163,7 @@
 
 ![8.1](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/8.1.jpg)
 
-سسكون الجواب كالتالي : 8.1
+سيكون الجواب كالتالي : 8.1
 
 
 
@@ -240,17 +240,14 @@
   بعد ما إستعنا بالإداء ظهرت لي الإجابة هي الzenmap.exe
    ![zenmap](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap.jpg) 
  من المٌفترض يكون التاريخ كالتالي 2016-06-21 
- لكن بما إنا التاريخ ظاهر لي بالهجري إستعنت بتحويل التاريخ من هجري إلى ميلادي وظهر لي نفس التاريخ اللي ذكرته
+ لكن بما إنّه التاريخ ظاهر لي بالهجري إستعنت بتحويل التاريخ من هجري إلى ميلادي وظهر لي نفس التاريخ اللي ذكرته
   
   ![date](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/date.jpg) 
  
 
 الحل سيكون كالتالي :
 
-
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<qu>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
- 
+ zenmap.exe,2016-06-21 12:08:13 UTC  
  
 
  ## 10- When did the port scan end? (Example: Sat Jan 23 hh:mm:ss 2016)
@@ -446,9 +443,18 @@ Ryan_VanAntwerp_thesis.pdf
 5
  
  ##24 - Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
+  إستنادا على سؤال 9 جواب هذا السؤال يعتمد عليه 
+   ![zenmap1](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap1.jpg) 
+   
+ أيضاَ بما إنّه التاريخ ظاهر لي بالهجري إستعنت بتحويل التاريخ من هجري إلى ميلادي وظهر لي نفس التاريخ اللي ذكرته
+  
+  ![date](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/date.jpg) 
  
  فسيكون الجواب كالتالي :
-
+ 
+ 06/21/2016 12:08:13 PM
+ 
+ 
  
  ## 25 - A JAR file for an offensive traffic manipulation tool was executed. What is the absolute path of the file?
  
