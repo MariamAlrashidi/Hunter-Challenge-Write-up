@@ -381,17 +381,20 @@
 
 ## 18 - The user Documents' directory contained a PDF file discussing data exfiltration techniques. What is the name of the file?
 
-بالرجوع للFTK Image يوجد لدينا ملف واضح لدينا بإمتداد PDF  وهذا هو الجواب 
 
-![pdf](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/PDF01.jpg)
+لحل هذا السؤال قمت بإستخراج الملفات الخاصة بالuser عن طريق أداء الFTK Image
 
+![pdf](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/pdf.jpg)
+
+بعد ما إستخرجنا المجلد , قرأت محتوى الpdfs الموجودة , وكان ملف Ryan_VanAntwerp_thesis.pdf يحتوي على تقنيات ال data exfiltration
+
+![userpdf](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/userpdf.jpg)
 
 
 فجواب السؤال كالتالي :
 
 Ryan_VanAntwerp_thesis.pdf
 
-)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))19(((((((((((((((((((((((((((((((((((((((((((((((((((((((((
 
 
 ## 20- What are the serial numbers of the two identified USB storage?
@@ -410,24 +413,21 @@ Ryan_VanAntwerp_thesis.pdf
 سيكون الجواب كالتالي :
 
  07B20C03C80830A9,AAI6UXDKZDV8E9OU
+  
  
  
- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<21>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
- 
- 
- 
- 
- ## 21 - How many prefetch files were discovered on the system?
+ ## 21 - One of the installed applications is a file shredder. What is the name of the application? (two words space separated)
 
-عشان نعرف عدد الملفات الPrefetch اللي تم إكتشافها على النظام , راح نستخدم أداء winprefetchview ونرفع ملفات Prefetch ثم بعد ذلك نحذف الملفات ذات الحجم صفر فراح يتبقى لنا عدد 174 ملف
- 
-فالجواب على السؤال الماضي كالتالي :
- 
+
+NOT SOLVED
  
  
  
   ## 22 - How many prefetch files were discovered on the system?
- فكرة هذا السؤال بإننا نحذف الملفات ذات القيمة أو الحجم صفر , فلمن نحذفها يتبقى عدد الملفات الظاهر في أسفل الصورة
+
+
+عشان نعرف عدد الملفات الPrefetch اللي تم إكتشافها على النظام , راح نستخدم أداء winprefetchview ونرفع ملفات Prefetch ثم بعد ذلك نحذف الملفات ذات الحجم صفر فراح يتبقى لنا عدد 174 ملف
+ 
  
   ![174](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/174.jpg)
  
@@ -440,7 +440,7 @@ Ryan_VanAntwerp_thesis.pdf
 ## 23- How many times was the file shredder application executed?
  
  فسيكون الجواب كالتالي :
-5
+
  
  ##24 - Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
   إستنادا على سؤال 9 جواب هذا السؤال يعتمد عليه 
@@ -480,18 +480,12 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 27 - Shellbags shows that the employee created a folder to include all the data he will exfiltrate. What is the full path of that folder?
  
-  فسيكون الجواب كالتالي :
  
- C:\Users\Hunter\Pictures\Exfil
- 
- 
- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
  
  
  ## 28 - The user deleted two JPG files from the system and moved them to $Recycle-Bin. What is the file name that has the resolution of 1920x1200?
  
  
- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
  
  
  
