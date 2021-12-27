@@ -225,14 +225,25 @@
  ## 9- There was a “Network Scanner” running on this computer, what was it? And when was the last time the suspect used it? Format: program.exe,YYYY-MM-DD HH:MM:SS UTC
  فكرة السؤال التاسع قائم على ال  “Network Scanner” كان على كمبوتر بيصير عليه هذا الScanner فمطلوب نعرف متى آخر مرة استخدمه المشتبه به 
  
- عشان نعرف وين صار فيه هذا ال “Network Scanner” راح نرجع للFTK Image نستخرج الملفات الموجودة في مجلد (windows/Prefetch) 
+ عشان نعرف وين صار فيه هذا ال “Network Scanner” راح نرجع للFTK Image نستخرج الملفات الموجودة في مجلد (windows/Prefetch)
+ 
+ 
+ 
  ![Prefetch01](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Prefetch01.jpg)
 
 
 ومن ثم إستخدمت اداءة Winprefetchview لتحليل أي ملف تم عمل الNetwork Scanner من خلاله 
-
->>>>>>>>>>>>>>>>>>>>>>>>>pic>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+ من خلال واجهة اداءال Winprefetchview نحدد من الخيار الظاهر في الصورة مجلد ال Prefetch
+ 
+  ![Show option](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/show%20options.jpg)
+  
+  بعد ما إستعنا بالإداء ظهرت لي الإجابة هي الzenmap.exe
+   ![zenmap](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap.jpg) 
+ من المٌفترض يكون التاريخ كالتالي 2016-06-21 
+ لكن بما إنا التاريخ ظاهر لي بالهجري إستعنت بتحويل التاريخ من هجري إلى ميلادي وظهر لي نفس التاريخ اللي ذكرته
+  
+  ![date](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/date.jpg) 
+ 
 
 الحل سيكون كالتالي :
 
@@ -419,6 +430,9 @@ Ryan_VanAntwerp_thesis.pdf
  
  
   ## 22 - How many prefetch files were discovered on the system?
+ فكرة هذا السؤال بإننا نحذف الملفات ذات القيمة أو الحجم صفر , فلمن نحذفها يتبقى عدد الملفات الظاهر في الصورة
+ 
+  ![174](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/174.jpg)
  
 فسيكون الجواب كالتالي :
 174
