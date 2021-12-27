@@ -501,11 +501,4 @@ NOT SOLVED
                                                                               
    
   ## 30 - Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
-                                                                              
-عشان نحلل ملفات الJump list نحتاج نستخرج هذه الملفات من الFTK Image من خلال المسار التالي نستخرج المعلومات اللي نحتاجها في عملة تحليل الملفات المطلوبة
- AppData\Roaming\Microsoftg\Windows\Recent\)
-  راح نتعامل الأن مع اداء ال JumpListExplorer للتحليل .. راح نبحث عن ال AppID نفس ماهو مذكور بالسؤال فراح تكون الإجابة كالتالي :
-                                                                              
-                                                                              
-فجواب السؤال كالتالي :
- C:\Users\Hunter\Desktop\Tor Browser\Browser\firefox.exe                                                                              
+                                                                    
