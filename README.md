@@ -128,9 +128,10 @@
 ![DHCP](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/DHCP%20reader.jpg)
 
 
+حل السؤال الثالث سيكون كالتالي :  21/06/2016 02:24:12 UTC 
 
 
-
+## 4- What is the computer SID?
 
 
 السؤال الرابع يتطلب مني معرفة الSID الذي إستعمله المشتبه به ولمعرفة ذلك سنتحقق من ملف الSAM  هذا الملف عبارة عن Security Account Manager ملف عبارة عن قاعدة بيانات يحتوي أو يخزّن كلمات مرور المستخدمين 
@@ -145,9 +146,11 @@
 
 ![sid](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/sid.jpg)
 
-## 	4- What is the computer SID?
- S-1-5-21-2489440558-2754304563-710705792
- 
+
+الحل سيكون كالتالي :  S-1-5-21-2489440558-2754304563-710705792
+
+
+## 5- What is the Operating System(OS) version?
  
  السؤال الخامس يتطلب مني معرفة إصدار نظام التشغيل الخاص بالمشتبه به ولمعرفة ذلك يكون بتحديد الSoftware الخاص به
  
@@ -160,9 +163,11 @@
 
 ![8.1](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/8.1.jpg)
 
-## 5-  	What is the Operating System(OS) version?
-8.1
+سسكون الجواب كالتالي : 8.1
 
+
+
+## 6- What was the computer timezone?
 
 السؤال السادس بحثنا عن طريق المسار التالي لإيجاد الtimezone
 (config\SYSTEM: ControlSet001\Control\TimeZoneInformation)
@@ -174,9 +179,10 @@
 
 
 
-## 6 - What was the computer timezone?
- UTC-07:00 
+سيكون الجواب كالتالي :  UTC-07:00 
  
+ 
+## 7- How many times did this user log on to the computer?
  
 السؤال السابع طلب معرفة كم مرة المشتبه به قام بتسجيل دخول على الكمبيوتر , ولمعرفة هذا يتطلب مني تحليل ملف SAM
 وعشان نحلل الملف نستخدم اداءة Reg Ripper
@@ -199,9 +205,10 @@
 ![REAL log 03](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log03.jpg)
 
 
-## 7- How many times did this user log on to the computer?
+سيكون الجواب كالتالي : 3
 
-3
+
+## 8- When was the last login time for the discovered account? Format: one-space between date and time
 
 
 بعد ماعرفنا كم مرة سجل دخول الأن نحاول نعرف آخر مرة تم تسجيل الدخول وهو ظاهر لنا بالملف النصي الذي إستخرجناه سابقاً
@@ -209,11 +216,13 @@
 ![REAL log 03](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log03.jpg)
 
 
-## 8- When was the last login time for the discovered account? Format: one-space between date and time
+الحلو سيكون كالتالي :
 
  2016-06-21 01:42:40 
  
  
+ 
+ ## 9- There was a “Network Scanner” running on this computer, what was it? And when was the last time the suspect used it? Format: program.exe,YYYY-MM-DD HH:MM:SS UTC
  فكرة السؤال التاسع قائم على ال  “Network Scanner” كان على كمبوتر بيصير عليه هذا الScanner فمطلوب نعرف متى آخر مرة استخدمه المشتبه به 
  
  عشان نعرف وين صار فيه هذا ال “Network Scanner” راح نرجع للFTK Image نستخرج الملفات الموجودة في مجلد (windows/Prefetch) 
@@ -225,7 +234,7 @@
 >>>>>>>>>>>>>>>>>>>>>>>>>pic>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-## 9 - There was a “Network Scanner” running on this computer, what was it? And when was the last time the suspect used it? Format: program.exe,YYYY-MM-DD HH:MM:SS UTC
+الحل سيكون كالتالي :
 
 
 
@@ -233,6 +242,10 @@
  
  
 
+ ## 10- When did the port scan end? (Example: Sat Jan 23 hh:mm:ss 2016)
+ 
+ 
+ 
 من خلال اداءة ال FTK Image إستخرجنا ملف الUsers لمعرفة كل الملفات تحت اسم المستخدم Hunter
 ![export users](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/export%20users.jpg)
 
@@ -247,35 +260,49 @@
  
   ![end](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/end.jpg)
   
- ## 10 - When did the port scan end? (Example: Sat Jan 23 hh:mm:ss 2016)
+سيكون الجواب كالتالي : 
+ 
  Tue Jun 21 05:12:09 2016
   
+ 
+ ## 11-How many ports were scanned?
+ 
 نقدر من ملف الnmapscan.xml  نعرف عدد الports  المفتوحة 
 
   ![ports](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/ports.jpg)
   
   
- ## 11 : How many ports were scanned?
+سيكون الجواب كالتالي :
+ 
  1000
+ 
+ 
+ ## 12- What ports were found "open"?(comma-separated, ascending)?
+ 
  
  من نفس الملف راح نعرف عدد الports اللي تكون في حالة الopen
  
  ![open ports](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/open%20ports.jpg)
  
  
- ## 12 : What ports were found "open"?(comma-separated, ascending)?
+سيكون الجواب كالتالي : 
   22,80,9929,31337
+ 
+ 
   
-  
+ ## 13- What was the version of the network scanner running on this computer?
+ 
+ 
   الأن مطلوب مننا نعرف نوع أو إصدار الNetwork Scannerاللي يشتغل على الكمبيوتر
   ولمعرفة الإصدار من نفس الملف السابق يتضح نوع الإصدار
   ![verison](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/verison.jpg) 
    
-## 13- What was the version of the network scanner running on this computer?
+سيكون الجواب كالتالي : 
 
  7.12 
  
  
+## 14- The employee engaged in a Skype conversation with someone. What is the skype username of the other party?
  مطلوب مننا إظهار الموظف اللي حاور مستخدم عبر الSkype 
  بالأول راح نستخرج ملف الSkype من خلال الFTK Image 
 ![skype](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skype01.jpg) 
@@ -288,18 +315,25 @@
 
 ![skype User](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skypeuser.jpg) 
 
-## 14 - The employee engaged in a Skype conversation with someone. What is the skype username of the other party?
+سيكون الجواب كالتالي :
+ 
 
  linux-rul3z 
+ 
+  	
+
+## 15- What is the name of the application both parties agreed to use to exfiltrate data and provide remote access for the external attacker in their Skype conversation?
  
  الخطوة التالية بحثنا أيضاً بنفس الأداءة نقدر نوصل للمحادثة اللي تمت في Skype وبالتالي راح نوصل لجواب السؤال الآخر عن أي برنامج اتفقوا عليه
  
  ![teamv](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skypeuserteamv.jpg) 
  
+سيكون الجواب كالتالي :
  
- ## 15 - What is the name of the application both parties agreed to use to exfiltrate data and provide remote access for the external attacker in their Skype conversation?
  teamviewer
  
+ 
+ ## 16- What is the Gmail email address of the suspect employee?
  
  
  من نفس الأداء نستخرج منه إيميل الموظف الذي تعاون مع المشتبه به 
@@ -307,7 +341,7 @@
   ![employ](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/employe.jpg) 
 
 
-## 16 - What is the Gmail email address of the suspect employee?
+سيكون الجواب كالتالي :
 
  ehptmsgs@gmail.com 
  
@@ -330,13 +364,12 @@
 
 جواب السؤال الماضي كالتالي 
 
-## 17 - It looks like the suspect user deleted an important diagram after his conversation with the external attacker. What is the file name of the deleted diagram?
-
+سيكون الجواب كالتالي : 
+ 
  home-network-design-networking-for-a-single-family-home-case-house-arkko-1433-x-792.jpg 
  
  
 
-السؤال التالي 
 
 ## 18 - The user Documents' directory contained a PDF file discussing data exfiltration techniques. What is the name of the file?
 
@@ -346,16 +379,15 @@
 
 
 
-فجواب السؤال مرة أخرى كالتالي :
-
-## 18 - The user Documents' directory contained a PDF file discussing data exfiltration techniques. What is the name of the file?
+فجواب السؤال كالتالي :
 
 Ryan_VanAntwerp_thesis.pdf
 
 )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))19(((((((((((((((((((((((((((((((((((((((((((((((((((((((((
 
 
-
+## 20- What are the serial numbers of the two identified USB storage?
+ 
 
 السؤال التالي : طُلب معرفة الأرقام التسلسلية أو الserial numbers الخاصة بوحدتي التخزين الخاصة بالUSB
 
@@ -367,7 +399,7 @@ Ryan_VanAntwerp_thesis.pdf
 ![usb](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/usb.jpg)
 
 
-## 20 - What are the serial numbers of the two identified USB storage?
+سيكون الجواب كالتالي :
 
  07B20C03C80830A9,AAI6UXDKZDV8E9OU
  
@@ -383,7 +415,12 @@ Ryan_VanAntwerp_thesis.pdf
  
 فالجواب على السؤال الماضي كالتالي :
  
+ 
+ 
+ 
   ## 22 - How many prefetch files were discovered on the system?
+ 
+فسيكون الجواب كالتالي :
 174
  
  
@@ -391,15 +428,21 @@ Ryan_VanAntwerp_thesis.pdf
  
 ## 23- How many times was the file shredder application executed?
  
- 
+ فسيكون الجواب كالتالي :
+5
  
  ##24 - Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
  
- 
+ فسيكون الجواب كالتالي :
+
  
  ## 25 - A JAR file for an offensive traffic manipulation tool was executed. What is the absolute path of the file?
  
+ فسيكون الجواب كالتالي :
+
  
+ 
+## 26- The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment?
  
 في السؤال التالي الموظف المشتبه به حاول بسرقة البيانات عن طريق إرفاقها على الإيميل ولمعرفة ماتم إرفاقه راح أستعين بالإداء Stellar Repair for Outlook لتحليل ملفات البريد الإلكتروني
  
@@ -409,7 +452,7 @@ Ryan_VanAntwerp_thesis.pdf
  
  
  
-## 26 - The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment?
+ فسيكون الجواب كالتالي :
  
   Pictures.7z 
  
@@ -417,7 +460,9 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 27 - Shellbags shows that the employee created a folder to include all the data he will exfiltrate. What is the full path of that folder?
  
+  فسيكون الجواب كالتالي :
  
+ C:\Users\Hunter\Pictures\Exfil
  
  
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -432,11 +477,13 @@ Ryan_VanAntwerp_thesis.pdf
  
  
  ## 29 - Provide the name of the directory where information about jump lists items (created automatically by the system) is stored?
+                                                                              
    للجواب على هذا السؤال نعود ل FTK Image لمعرفة المجلدات التي بداخل مجلد الRecent
    راح تكون في المسار التالي 
   (%USERPROFILE%\AppData\Roaming\Microsoftg\Windows\Recent\AutomaticDestinations-ms)   
   ![Recent](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Recent.jpg)                                                                          
-  فجواب السؤال السابق هو :  AutomaticDestinations-ms 
+  فجواب السؤال السابق هو : 
+  AutomaticDestinations-ms 
                                                                               
    
   ## 30 - Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
@@ -446,3 +493,5 @@ Ryan_VanAntwerp_thesis.pdf
   راح نتعامل الأن مع اداء ال JumpListExplorer للتحليل .. راح نبحث عن ال AppID نفس ماهو مذكور بالسؤال فراح تكون الإجابة كالتالي :
                                                                               
                                                                               
+فجواب السؤال كالتالي :
+ C:\Users\Hunter\Desktop\Tor Browser\Browser\firefox.exe                                                                              
