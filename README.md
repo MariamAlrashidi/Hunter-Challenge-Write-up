@@ -434,7 +434,7 @@ Ryan_VanAntwerp_thesis.pdf
  ## 21 - One of the installed applications is a file shredder. What is the name of the application? (two words space separated)
 
 
-NOT SOLVED
+
  
  
  
@@ -453,8 +453,9 @@ NOT SOLVED
  
  
 ## 23- How many times was the file shredder application executed?
- 
- فسيكون الجواب كالتالي :
+
+
+
 
  
  ## 24- Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
@@ -473,7 +474,7 @@ NOT SOLVED
  
  ## 25 - A JAR file for an offensive traffic manipulation tool was executed. What is the absolute path of the file?
  
- فسيكون الجواب كالتالي :
+
 
 
  
