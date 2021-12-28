@@ -260,6 +260,14 @@
 على سطح المكتب أو الDesktop حصلت ملف إسمه nmapscan.xml وهو عبارة عن نسخة أو ملف التقرير الناتج عن عملية الScanner
 داخل الملف كان فيه تفاصيل عن وقت بداية ونهاية عملية الScan 
 
+ملف الnmapscan.xml راح يكون على المسار التالي أو كما هو موضح في الصورة
+
+C:\Users\***\Desktop\Hunter\Desktop
+
+![nmapscan](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/nmapscan.jpg)
+
+
+
 وقت البدء : 
 
  ![start](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/starting.jpg)
