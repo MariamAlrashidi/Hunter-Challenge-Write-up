@@ -190,7 +190,7 @@
 
 الصورة هذه عملت في خانة ال Hive File ملف الSAM 
 وخانة الReport file أنشاء ملف نصي بأسم Real log كما هو موضح بالصورة في الأسفل
-![REAL log 01](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log01.jpg)
+![REAL log 01](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/Real%20Log01.jpg)
 
 
 بعد كذا عملت Rip! بحيث يستخرج لي معلومات الLog كما هو ظاهر في الصورة باللأسفل
