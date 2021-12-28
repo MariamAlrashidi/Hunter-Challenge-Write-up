@@ -376,7 +376,7 @@ C:\Users\***\Desktop\Hunter\Desktop
 
 راح نلقى الجواب في ملف الايميلات المحذوفة
  
-![home network](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/home-network-design.jpg)
+![home network](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/home%20network%20design1.jpg)
 
 جواب السؤال الماضي كالتالي 
 
