@@ -407,8 +407,20 @@ Ryan_VanAntwerp_thesis.pdf
 
 ## 19- What was the name of the Disk Encryption application Installed on the victim system? (two words space separated)
 
+عشان نجاوب على السؤال هذا راح نستعين بأداء الFTK Image للبحث عن إسم البرنامج وبالرجوع لمجلد الProgram files تحت خانة الUser بإسم Jetico وبالبحث بمجلد الBCWipe 
+لكن قبل البحث عنه , السؤال البديهي اللي يجي ببالنا لمن نبحث في هذا المجلد , ليه تحديداً مجلد الBCWipe?
+ال BCWipe تعتبر أداء لتمزيق الملفات أو file shredder عشان بتزيل كل آثار الملفات الغير مرغوب فيها 
+لمن نختار هذا المجلد راح نروح لخانة الunInstall.log ليه ؟ لأن بالسؤال طالب "What was the name" فمعناه إن البرنامج كان مُثبّت وإنحذف فبرجوع لFTK Image
+والجواب كما هو محدّد
 
 
+![crypto](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/crypto.jpg)
+
+فجواب السؤال كالتالي :
+
+ Crypto Swap 
+ 
+ 
 
 ## 20- What are the serial numbers of the two identified USB storage?
  
@@ -431,9 +443,15 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 21 - One of the installed applications is a file shredder. What is the name of the application? (two words space separated)
 
+في سؤال 19 ذكرت أي نوع من ملفات ال"file shredder" تنتمي لأي أداء , ألا وهي أداء الBCWipe فبرجوع لل FTK IMage راح نشوف مسار المجلد , فراح يكون كما هو ظاهر في الصورة 
 
+![bcwipe](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/bcwipe.jpg)
 
+ الJetico تُعتبر شركة أنشاءت الBCWipe tool 
  
+ فراح يكون الجواب كالتالي :
+ 
+ Jetico BCWipe
  
  
   ## 22 - How many prefetch files were discovered on the system?
@@ -452,7 +470,14 @@ Ryan_VanAntwerp_thesis.pdf
  
 ## 23- How many times was the file shredder application executed?
 
+فكرة هذا السؤال نقدر نعرف جوابه من أداء الWinPrefetchView
+فمثل ماقلنا سابقاً بأن الfile shredder مرتبط بالBCWipe tool فراح يكون الجواب كالتالي كأخر مرا آشتغل وعدد المرات اللي إشتغلت فيه الأداء
 
+   ![bcwiperun](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/bcwipeRun.jpg) 
+
+راح يكون الجواب كالتالي :
+
+5
 
 
  
@@ -499,10 +524,18 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 28 - The user deleted two JPG files from the system and moved them to $Recycle-Bin. What is the file name that has the resolution of 1920x1200?
  
+ كما هو مذكور في السؤال , راح نرجع لمجلد ال$Recycle-Bin من خلال الأداء الFTK Image 
+راح نلقى صورةغير كاملة كما موضّح بالصورة
+
+![cat1](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/cat1.jpg)
  
+ لما بحثنا أكثر في الFTK Image فيه مجلد اسمه Pictures بداخله مجلد إسمه Private بداخله وجدنا الصورة المطلوبة بإسم يحتوي على الحجم المطلوب 
+ ![cat2](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/cat2.jpg)
  
+ راح يكون الجواب كالتالي :
  
- 
+  ws_Small_cute_kitty_1920x1200.jpg 
+  
  
  ## 29 - Provide the name of the directory where information about jump lists items (created automatically by the system) is stored?
   سؤال عام عن العناصر اللي بتنشأ "أوتوماتيك" في النظام ووين تتخزن هذه المعلومات بخصوص الjump list 
