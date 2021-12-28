@@ -511,5 +511,30 @@ Ryan_VanAntwerp_thesis.pdf
                                          
    
   ## 30 - Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
-                                                                    
+  
+  عشان نفهم فكرة الjump list analysis ونعرف كيف نستخرجها من أداء الFTK Image 
+  
+  كيف عرفنا إن هذه الملفات هي ملفات تخص الJump list analysis?
+  
+  فكرة الjump list هي تحفظ الزيارات أو الأشياء اللي يستخدمها المستخدم بكثرة ففالغالب تنحفظ في مجلد يُسمى بالRecent 
+  
+  بالبداية في العادة تتخزن الJump list تحت هذا المسار
+  
+  (C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent)
+  
+  بالعودة لإداء الFTK Image استخرجنا المجلدين التالية لمعرفة حل السؤال
+  
+  ![ma](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/ms.jpg)
+  
+  بعد ما إستخرجنا الcustomdestinations-ms وال automaticdestinations-ms نستعمل الأن أداء ال JumpListExplorer ونختار بالأول مجلد الautomaticdestinations-ms لرؤية محتوى الAppId إذا كان يحتوي على الid المطلوب أم لا 
+  لكن قبل مقارنة الAppId مع المخرجات, إخترنا كل المطلوب بنفس مجلد الظاهر في الصورة 
+ [jump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist1.jpg)
+ 
+ الأن عملنا مقارنة مع المطلوب في السؤال بالAppId ولم يظهر في نفس هذا المجلد 
+![auto](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist2.jpg)
+
+بنفس الطريقة التي إخترنا بها محتوى الموجود بمجلد الustomdestinations-ms في أداء الJumpListExplorer
+ونعمل مقارنة بين مخرجات الموجودة في الAppId وبين الموجود في السؤال , راح يظهر الجواب في الصورة الموضّحة
+![custom](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist3.jpg)
+
                                                                     
