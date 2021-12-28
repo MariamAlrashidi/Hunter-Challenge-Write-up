@@ -372,7 +372,7 @@ C:\Users\***\Desktop\Hunter\Desktop
 
 الأن نحدد الملف اللي نحتاج نسترجعه من خلال اداء Stellar Repair for Outlook 
  
-![backup](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/backup.jpg)
+![backup](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/backup1.jpg)
 
 راح نلقى الجواب في ملف الايميلات المحذوفة
  
