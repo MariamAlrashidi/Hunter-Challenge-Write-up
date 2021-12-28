@@ -507,13 +507,7 @@ NOT SOLVED
  
  ## 29 - Provide the name of the directory where information about jump lists items (created automatically by the system) is stored?
                                                                               
-   للجواب على هذا السؤال نعود ل FTK Image لمعرفة المجلدات التي بداخل مجلد الRecent
-   راح تكون في المسار التالي 
-  (%USERPROFILE%\AppData\Roaming\Microsoftg\Windows\Recent\AutomaticDestinations-ms)   
-  ![Recent](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Recent.jpg)                                                                          
-  فجواب السؤال السابق هو : 
-  AutomaticDestinations-ms 
-                                                                              
+                                         
    
   ## 30 - Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
                                                                     
