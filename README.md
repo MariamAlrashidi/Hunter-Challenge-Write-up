@@ -442,7 +442,7 @@ NOT SOLVED
  فسيكون الجواب كالتالي :
 
  
- ##24 - Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
+ ## 24- Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
   إستنادا على سؤال 9 جواب هذا السؤال يعتمد عليه 
    ![zenmap1](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap1.jpg) 
    
