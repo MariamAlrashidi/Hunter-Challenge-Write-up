@@ -507,7 +507,10 @@ Ryan_VanAntwerp_thesis.pdf
  
  
  ## 29 - Provide the name of the directory where information about jump lists items (created automatically by the system) is stored?
-                                                                              
+  سؤال عام عن العناصر اللي بتنشأ "أوتوماتيك" في النظام ووين تتخزن هذه المعلومات بخصوص الjump list 
+   الجواب بيكون كالتالي:
+  
+  automaticdestinations-ms
                                          
    
   ## 30 - Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
