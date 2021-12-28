@@ -432,7 +432,7 @@ Ryan_VanAntwerp_thesis.pdf
 من خلال المسار التالي :
 (config\SYSTEM: ControlSet001\Enum\USB\ROOT_HUB20)
 
-![usb](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/usb.jpg)
+![usb](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/usb1.jpg)
 
 
 سيكون الجواب كالتالي :
