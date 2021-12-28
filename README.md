@@ -460,7 +460,7 @@ NOT SOLVED
  
  فسيكون الجواب كالتالي :
 
- 
+
  
 ## 26- The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment?
  
