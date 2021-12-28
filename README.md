@@ -537,4 +537,8 @@ Ryan_VanAntwerp_thesis.pdf
 ونعمل مقارنة بين مخرجات الموجودة في الAppId وبين الموجود في السؤال , راح يظهر الجواب في الصورة الموضّحة
 ![custom](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist3.jpg)
 
+
+ليكون جواب السؤال الأخير كالتالي :
+
+ C:\Users\Hunter\Desktop\Tor Browser\Browser\firefox.exe 
                                                                     
