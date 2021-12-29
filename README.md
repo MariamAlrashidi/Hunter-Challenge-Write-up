@@ -564,7 +564,7 @@ Ryan_VanAntwerp_thesis.pdf
   بعد ما إستخرجنا الcustomdestinations-ms وال automaticdestinations-ms نستعمل الأن أداء ال JumpListExplorer ونختار بالأول مجلد الautomaticdestinations-ms لرؤية محتوى الAppId إذا كان يحتوي على الid المطلوب أم لا 
   لكن قبل مقارنة الAppId مع المخرجات, إخترنا كل المطلوب بنفس مجلد الظاهر في الصورة 
 
-[jump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist1.jpg)
+![jump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist1.jpg)
  
  الأن عملنا مقارنة مع المطلوب في السؤال بالAppId ولم يظهر في نفس هذا المجلد 
 ![auto](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist2.jpg)
