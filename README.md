@@ -238,6 +238,7 @@
   ![Show option](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/show%20options.jpg)
   
   بعد ما إستعنا بالإداء ظهرت لي الإجابة هي الzenmap.exe
+  
    ![zenmap](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap.jpg) 
  من المٌفترض يكون التاريخ كالتالي 2016-06-21 
  لكن بما إنّه التاريخ ظاهر لي بالهجري إستعنت بتحويل التاريخ من هجري إلى ميلادي وظهر لي نفس التاريخ اللي ذكرته
@@ -483,7 +484,7 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 24- Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
   إستنادا على سؤال 9 جواب هذا السؤال يعتمد عليه 
-   ![zenmap1](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap1.jpg) 
+   ![zenmap](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap.jpg) 
    
  أيضاَ بما إنّه التاريخ ظاهر لي بالهجري إستعنت بتحويل التاريخ من هجري إلى ميلادي وظهر لي نفس التاريخ اللي ذكرته
   
