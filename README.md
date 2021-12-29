@@ -614,4 +614,9 @@ Ryan_VanAntwerp_thesis.pdf
 ليكون جواب السؤال الأخير كالتالي :
 
  C:\Users\Hunter\Desktop\Tor Browser\Browser\firefox.exe 
+ 
+ 
+ 
+ التحدي بالنهاية جميل جداً كان يشمل جزئيات عدة من كورس الDigital Forensics Professional تحديداً جزئية الWindows Registry ويتعبر تحضير جيد في هذه الجزئية .
+ 
                                                                     
