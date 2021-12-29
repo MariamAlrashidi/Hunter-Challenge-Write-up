@@ -558,10 +558,16 @@ Ryan_VanAntwerp_thesis.pdf
   (C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent)
   
   بالعودة لإداء الFTK Image استخرجنا المجلدين التالية لمعرفة حل السؤال
+  إستخرجنا بالبداية الautomaticdestinations-ms 
   
   ![ma](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/ms.jpg)
   
-  بعد ما إستخرجنا الcustomdestinations-ms وال automaticdestinations-ms نستعمل الأن أداء ال JumpListExplorer ونختار بالأول مجلد الautomaticdestinations-ms لرؤية محتوى الAppId إذا كان يحتوي على الid المطلوب أم لا 
+  وإستخرجنا أيضاً ال customdestinations-ms
+  
+  ![custom](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/customexport.jpg)
+  
+  
+  بعد ما إستخرجنا ال customdestinations-ms وال automaticdestinations-ms نستعمل الأن أداء ال JumpListExplorer ونختار بالأول مجلد الautomaticdestinations-ms لرؤية محتوى الAppId إذا كان يحتوي على الid المطلوب أم لا 
   لكن قبل مقارنة الAppId مع المخرجات, إخترنا كل المطلوب بنفس مجلد الظاهر في الصورة 
 
 ![jump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist1.jpg)
@@ -569,8 +575,12 @@ Ryan_VanAntwerp_thesis.pdf
  الأن عملنا مقارنة مع المطلوب في السؤال بالAppId ولم يظهر في نفس هذا المجلد 
 ![auto](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist2.jpg)
 
-بنفس الطريقة التي إخترنا بها محتوى الموجود بمجلد الustomdestinations-ms في أداء الJumpListExplorer
-ونعمل مقارنة بين مخرجات الموجودة في الAppId وبين الموجود في السؤال , راح يظهر الجواب في الصورة الموضّحة
+راح نستخرج أيضاَ الcustomdestinations-ms ونعمل مقارنة بعد كذا بالAppId مع السؤال المطلوب 
+فراح نستخرجه من أداء الFTK Image
+![cusomjump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/customjump.jpg)
+
+الأن نقارن مع الAppId فراح يظهر مطابق للسؤال
+
 ![custom](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist3.jpg)
 
 
