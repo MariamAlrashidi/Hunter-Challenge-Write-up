@@ -508,7 +508,7 @@ Ryan_VanAntwerp_thesis.pdf
  
  فوجدنا بالإيميلات المُرسلة كالتالي :
  
- ![pic](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Pictures01.jpg)
+ ![pic](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/Pictures011.jpg)
  
  
  
