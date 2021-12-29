@@ -501,7 +501,15 @@ Ryan_VanAntwerp_thesis.pdf
 في السؤال طالب ال "Offensive traffic traffic manipulation tool" بالمراجعة إلى المسار التالي
  
 ( C:\Users\Hunter\Downloads\***)
-
+ كان أول برنامج في قائمة الdownload يٌخص عمليات الoffensuve taffic maipulation فلمن شيّكنا على الخصائص ظهرت كما هو مُوضّح بالصورة
+ 
+ ![burpsuite](https://github.com/MariamAlrashidi/Hunter-Challenge-Write-up/blob/master/Pic/burpsuite.jpg)
+ 
+ وكما هو موّضح بالأسفل الإمتداد
+ 
+ ليكون الحل كالتالي :
+ 
+  C:\Users\Hunter\Downloads\Burpsuite_free_v1.7.03.jar 
 
  
 ## 26- The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment?
@@ -521,8 +529,24 @@ Ryan_VanAntwerp_thesis.pdf
  
  
  ## 27 - Shellbags shows that the employee created a folder to include all the data he will exfiltrate. What is the full path of that folder?
+ عشان نعرف بالضبط وين أنشأ الموظف المجلد , يحتاج نستخرج كل اللي موجود في مجلد الWindows
+  ![pic](https://github.com/MariamAlrashidi/Hunter-Challenge-Write-up/blob/master/Pic/file%2011.jpg)
  
+ بعد كذا راح نستخدم الكوماند التالي في مجلد الأداء ShellBagsExplorer
+ ![cmd](https://github.com/MariamAlrashidi/Hunter-Challenge-Write-up/blob/master/Pic/cmd.jpg)
+ المٌلوّنة بالأمر هذا ملف إسمه UsrClass.dat يحتوي على  معلومات الshellbag
+لمن استخدمنا هذا الأمر إحتفظنا بالنتائج في مجلد إسمه Resualts على سبيل المثال 
+ ![resualt](https://github.com/MariamAlrashidi/Hunter-Challenge-Write-up/blob/master/Pic/resualt.jpg)
  
+ بداخل هذا المجلد يوجد ملف بصيغة الExecl فيه محتويات اللي نحتاجها لمعرفة الحل
+  ![execl](https://github.com/MariamAlrashidi/Hunter-Challenge-Write-up/blob/master/Pic/execl.jpg)
+ 
+ كتوضيح ليش إخترنا الExfil?
+ لأن بالسؤال طالب مننا إنه نستخرج المجلد اللي عمله الموظف عشان يحفظ فيه كل المعلومات اللي بيسويلها exfiltrate 
+ 
+ فراح يكون الجواب كالتالي :
+ 
+  C:\Users\Hunter\Pictures\Exfil 
  
  
  ## 28 - The user deleted two JPG files from the system and moved them to $Recycle-Bin. What is the file name that has the resolution of 1920x1200?
