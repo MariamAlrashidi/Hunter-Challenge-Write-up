@@ -575,8 +575,9 @@ Ryan_VanAntwerp_thesis.pdf
  الأن عملنا مقارنة مع المطلوب في السؤال بالAppId ولم يظهر في نفس هذا المجلد 
 ![auto](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist2.jpg)
 
-راح نستخرج أيضاَ الcustomdestinations-ms ونعمل مقارنة بعد كذا بالAppId مع السؤال المطلوب 
-فراح نستخرجه من أداء الFTK Image
+راح نحدد أيضاَ الcustomdestinations-ms ونعمل مقارنة بعد كذا بالAppId مع السؤال المطلوب 
+بكل اللي داخل هذا المجلد نعمل تحديد عن طريق أداء الJumpListExplorer
+
 ![cusomjump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/customjump.jpg)
 
 الأن نقارن مع الAppId فراح يظهر مطابق للسؤال
