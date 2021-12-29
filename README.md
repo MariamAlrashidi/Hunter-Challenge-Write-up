@@ -329,7 +329,7 @@ C:\Users\***\Desktop\Hunter\Desktop
 
 من خلال البحث في ملفات قاعدة البيانات في مجلد الSkype وجدنا المستخدم الآخر الذي تحاور معاها موظفنا 
 
-![skype User](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skypeuser.jpg) 
+![skype User](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/skypeuser11.jpg) 
 
 سيكون الجواب كالتالي :
  
@@ -342,7 +342,7 @@ C:\Users\***\Desktop\Hunter\Desktop
  
  الخطوة التالية بحثنا أيضاً بنفس الأداءة نقدر نوصل للمحادثة اللي تمت في Skype وبالتالي راح نوصل لجواب السؤال الآخر عن أي برنامج اتفقوا عليه
  
- ![teamv](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skypeuserteamv.jpg) 
+ ![teamv](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/skypeuserteamv1.jpg) 
  
 سيكون الجواب كالتالي :
  
@@ -354,7 +354,7 @@ C:\Users\***\Desktop\Hunter\Desktop
  
  من نفس الأداء نستخرج منه إيميل الموظف الذي تعاون مع المشتبه به 
  
-  ![employ](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/employe.jpg) 
+  ![employ](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/employe1.jpg) 
 
 
 سيكون الجواب كالتالي :
