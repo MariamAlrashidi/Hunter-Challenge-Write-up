@@ -185,7 +185,7 @@
 ## 7- How many times did this user log on to the computer?
  
 السؤال السابع طلب معرفة كم مرة المشتبه به قام بتسجيل دخول على الكمبيوتر , ولمعرفة هذا يتطلب مني تحليل ملف SAM
-وعشان نحلل الملف نستخدم اداءة Reg Ripper
+وعشان نحلل الملف نستخدم اداة Reg Ripper
 فكرة هذه الأداء ببساطة بإنها تستخرج لي المعلومات كقيم بحيث تحلل لي السجل أو الRegistry
 
 الصورة هذه عملت في خانة ال Hive File ملف الSAM 
@@ -232,8 +232,8 @@
  ![Prefetch01](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Prefetch01.jpg)
 
 
-ومن ثم إستخدمت اداءة Winprefetchview لتحليل أي ملف تم عمل الNetwork Scanner من خلاله 
- من خلال واجهة اداءال Winprefetchview نحدد من الخيار الظاهر في الصورة مجلد ال Prefetch
+ومن ثم إستخدمت اداة Winprefetchview لتحليل أي ملف تم عمل الNetwork Scanner من خلاله 
+ من خلال واجهة اداةال Winprefetchview نحدد من الخيار الظاهر في الصورة مجلد ال Prefetch
  
   ![Show option](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/show%20options.jpg)
   
@@ -255,7 +255,7 @@
  
  
  
-من خلال اداءة ال FTK Image إستخرجنا ملف الUsers لمعرفة كل الملفات تحت اسم المستخدم Hunter
+من خلال اداة ال FTK Image إستخرجنا ملف الUsers لمعرفة كل الملفات تحت اسم المستخدم Hunter
 ![export users](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/export%20users.jpg)
 
 على سطح المكتب أو الDesktop حصلت ملف إسمه nmapscan.xml وهو عبارة عن نسخة أو ملف التقرير الناتج عن عملية الScanner
@@ -284,7 +284,7 @@ C:\Users\***\Desktop\Hunter\Desktop
  
  ## 11-How many ports were scanned?
  
-نقدر من ملف الnmapscan.xml  نعرف عدد الports  المفتوحة 
+نقدر من ملف الnmapscan.xml  نعرف عدد الports  التي تم فحصها 
 
   ![ports](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/ports.jpg)
   
@@ -324,9 +324,9 @@ C:\Users\***\Desktop\Hunter\Desktop
  بالأول راح نستخرج ملف الSkype من خلال الFTK Image 
 ![skype](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/skype01.jpg) 
 
-بعد كذا نستخدم أداء Skyperious
+بعد كذا نستخدم اداة Skyperious
 
-راح نفتح ملفات ال Skype database من خلال اداء Skyperious
+راح نفتح ملفات ال Skype database من خلال اداة Skyperious
 
 من خلال البحث في ملفات قاعدة البيانات في مجلد الSkype وجدنا المستخدم الآخر الذي تحاور معاها موظفنا 
 
@@ -341,7 +341,7 @@ C:\Users\***\Desktop\Hunter\Desktop
 
 ## 15- What is the name of the application both parties agreed to use to exfiltrate data and provide remote access for the external attacker in their Skype conversation?
  
- الخطوة التالية بحثنا أيضاً بنفس الأداءة نقدر نوصل للمحادثة اللي تمت في Skype وبالتالي راح نوصل لجواب السؤال الآخر عن أي برنامج اتفقوا عليه
+ الخطوة التالية بحثنا أيضاً بنفس الأداة نقدر نوصل للمحادثة اللي تمت في Skype وبالتالي راح نوصل لجواب السؤال الآخر عن أي برنامج اتفقوا عليه
  
  ![teamv](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/skypeuserteamv1.jpg) 
  
@@ -353,7 +353,7 @@ C:\Users\***\Desktop\Hunter\Desktop
  ## 16- What is the Gmail email address of the suspect employee?
  
  
- من نفس الأداء نستخرج منه إيميل الموظف الذي تعاون مع المشتبه به 
+ من نفس الأداة نستخرج منه إيميل الموظف الذي تعاون مع المشتبه به 
  
   ![employ](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/employe11.jpg) 
 
@@ -365,13 +365,13 @@ C:\Users\***\Desktop\Hunter\Desktop
  
 ## 17 - It looks like the suspect user deleted an important diagram after his conversation with the external attacker. What is the file name of the deleted diagram?
 
-عشان نحل هذا السؤال راح نتعامل مع أداء Stellar Repair for Outlook لتحليل ملفات البريد الإلكتروني 
+عشان نحل هذا السؤال راح نتعامل مع اداة Stellar Repair for Outlook لتحليل ملفات البريد الإلكتروني 
 لكن قبل التعامل معاها لابد من إستخراج الملفات بإستخدام الFTK Image راح استخرج مجلد الUsers كامل
 
   ![export backup](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/export%20backup.jpg) 
 
 
-الأن نحدد الملف اللي نحتاج نسترجعه من خلال اداء Stellar Repair for Outlook 
+الأن نحدد الملف اللي نحتاج نسترجعه من خلال اداة Stellar Repair for Outlook 
  
 ![backup](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/backup1.jpg)
 
@@ -391,7 +391,7 @@ C:\Users\***\Desktop\Hunter\Desktop
 ## 18 - The user Documents' directory contained a PDF file discussing data exfiltration techniques. What is the name of the file?
 
 
-لحل هذا السؤال قمت بإستخراج الملفات الخاصة بالuser عن طريق أداء الFTK Image
+لحل هذا السؤال قمت بإستخراج الملفات الخاصة بالuser عن طريق اداة الFTK Image
 
 ![pdf](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/pdf.jpg)
 
@@ -408,9 +408,9 @@ Ryan_VanAntwerp_thesis.pdf
 
 ## 19- What was the name of the Disk Encryption application Installed on the victim system? (two words space separated)
 
-عشان نجاوب على السؤال هذا راح نستعين بأداء الFTK Image للبحث عن إسم البرنامج وبالرجوع لمجلد الProgram files تحت خانة الUser بإسم Jetico وبالبحث بمجلد الBCWipe 
+عشان نجاوب على السؤال هذا راح نستعين بإداة الFTK Image للبحث عن إسم البرنامج وبالرجوع لمجلد الProgram files تحت خانة الUser بإسم Jetico وبالبحث بمجلد الBCWipe 
 لكن قبل البحث عنه , السؤال البديهي اللي يجي ببالنا لمن نبحث في هذا المجلد , ليه تحديداً مجلد الBCWipe?
-ال BCWipe تعتبر أداء لتمزيق الملفات أو file shredder عشان بتزيل كل آثار الملفات الغير مرغوب فيها 
+ال BCWipe تعتبر أداة لتمزيق الملفات أو file shredder عشان بتزيل كل آثار الملفات الغير مرغوبة فيها 
 لمن نختار هذا المجلد راح نروح لخانة الunInstall.log ليه ؟ لأن بالسؤال طالب "What was the name" فمعناه إن البرنامج كان مُثبّت وإنحذف فبرجوع لFTK Image
 والجواب كما هو محدّد
 
@@ -428,7 +428,7 @@ Ryan_VanAntwerp_thesis.pdf
 
 السؤال التالي : طُلب معرفة الأرقام التسلسلية أو الserial numbers الخاصة بوحدتي التخزين الخاصة بالUSB
 
-ولحل هذه المسألة نستخدم أداء ال Registry Explorerلقراءة ملف الUSB
+ولحل هذه المسألة نستخدم اداة ال Registry Explorerلقراءة ملف الUSB
 
 من خلال المسار التالي :
 (config\SYSTEM: ControlSet001\Enum\USB\ROOT_HUB20)
@@ -458,7 +458,7 @@ Ryan_VanAntwerp_thesis.pdf
   ## 22 - How many prefetch files were discovered on the system?
 
 
-عشان نعرف عدد الملفات الPrefetch اللي تم إكتشافها على النظام , راح نستخدم أداء winprefetchview ونرفع ملفات Prefetch ثم بعد ذلك نحذف الملفات ذات الحجم صفر فراح يتبقى لنا عدد 174 ملف
+عشان نعرف عدد الملفات الPrefetch اللي تم إكتشافها على النظام , راح نستخدم اداة winprefetchview ونرفع ملفات Prefetch ثم بعد ذلك نحذف الملفات ذات الحجم صفر فراح يتبقى لنا عدد 174 ملف
  
  
   ![174](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/174.jpg)
@@ -471,8 +471,8 @@ Ryan_VanAntwerp_thesis.pdf
  
 ## 23- How many times was the file shredder application executed?
 
-فكرة هذا السؤال نقدر نعرف جوابه من أداء الWinPrefetchView
-فمثل ماقلنا سابقاً بأن الfile shredder مرتبط بالBCWipe tool فراح يكون الجواب كالتالي كأخر مرا آشتغل وعدد المرات اللي إشتغلت فيه الأداء
+فكرة هذا السؤال نقدر نعرف جوابه من اداة الWinPrefetchView
+فمثل ماقلنا سابقاً بأن الfile shredder مرتبط بالBCWipe tool فراح يكون الجواب كالتالي كأخر مرا آشتغل وعدد المرات اللي إشتغلت فيه اداة
 
    ![bcwiperun](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/bcwipeRun.jpg) 
 
@@ -514,7 +514,7 @@ Ryan_VanAntwerp_thesis.pdf
  
 ## 26- The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment?
  
-في السؤال التالي الموظف المشتبه به حاول بسرقة البيانات عن طريق إرفاقها على الإيميل ولمعرفة ماتم إرفاقه راح أستعين بالإداء Stellar Repair for Outlook لتحليل ملفات البريد الإلكتروني
+في السؤال التالي الموظف المشتبه به حاول بسرقة البيانات عن طريق إرفاقها على الإيميل ولمعرفة ماتم إرفاقه راح أستعين بالأداة Stellar Repair for Outlook لتحليل ملفات البريد الإلكتروني
  
  فوجدنا بالإيميلات المُرسلة كالتالي :
  
@@ -532,7 +532,7 @@ Ryan_VanAntwerp_thesis.pdf
  عشان نعرف بالضبط وين أنشأ الموظف المجلد , يحتاج نستخرج كل اللي موجود في مجلد الWindows
   ![pic](https://github.com/MariamAlrashidi/Hunter-Challenge-Write-up/blob/master/Pic/file%2011.jpg)
  
- بعد كذا راح نستخدم الكوماند التالي في مجلد الأداء ShellBagsExplorer
+ بعد كذا راح نستخدم الكوماند التالي في مجلد الأداة ShellBagsExplorer
  ![cmd](https://github.com/MariamAlrashidi/Hunter-Challenge-Write-up/blob/master/Pic/cmd.jpg)
  المٌلوّنة بالأمر هذا ملف إسمه UsrClass.dat يحتوي على  معلومات الshellbag
 لمن استخدمنا هذا الأمر إحتفظنا بالنتائج في مجلد إسمه Resualts على سبيل المثال 
@@ -551,7 +551,7 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 28 - The user deleted two JPG files from the system and moved them to $Recycle-Bin. What is the file name that has the resolution of 1920x1200?
  
- كما هو مذكور في السؤال , راح نرجع لمجلد ال$Recycle-Bin من خلال الأداء الFTK Image 
+ كما هو مذكور في السؤال , راح نرجع لمجلد ال$Recycle-Bin من خلال الأداة الFTK Image 
 راح نلقى صورةغير كاملة كما موضّح بالصورة
 
 ![cat1](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/cat1.jpg)
@@ -573,7 +573,7 @@ Ryan_VanAntwerp_thesis.pdf
    
   ## 30 - Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.
   
-  عشان نفهم فكرة الjump list analysis ونعرف كيف نستخرجها من أداء الFTK Image 
+  عشان نفهم فكرة الjump list analysis ونعرف كيف نستخرجها من أداة الFTK Image 
   
   كيف عرفنا إن هذه الملفات هي ملفات تخص الJump list analysis?
   
@@ -583,7 +583,7 @@ Ryan_VanAntwerp_thesis.pdf
   
   (C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent)
   
-  بالعودة لإداء الFTK Image استخرجنا المجلدين التالية لمعرفة حل السؤال
+  بالعودة لإداة الFTK Image استخرجنا المجلدين التالية لمعرفة حل السؤال
   إستخرجنا بالبداية الautomaticdestinations-ms 
   
   ![ma](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/ms.jpg)
@@ -593,7 +593,7 @@ Ryan_VanAntwerp_thesis.pdf
   ![custom](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/customexport.jpg)
   
   
-  بعد ما إستخرجنا ال customdestinations-ms وال automaticdestinations-ms نستعمل الأن أداء ال JumpListExplorer ونختار بالأول مجلد الautomaticdestinations-ms لرؤية محتوى الAppId إذا كان يحتوي على الid المطلوب أم لا 
+  بعد ما إستخرجنا ال customdestinations-ms وال automaticdestinations-ms نستعمل الأن أداة ال JumpListExplorer ونختار بالأول مجلد الautomaticdestinations-ms لرؤية محتوى الAppId إذا كان يحتوي على الid المطلوب أم لا 
   لكن قبل مقارنة الAppId مع المخرجات, إخترنا كل المطلوب بنفس مجلد الظاهر في الصورة 
 
 ![jump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist1.jpg)
@@ -602,7 +602,7 @@ Ryan_VanAntwerp_thesis.pdf
 ![auto](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/jumplist2.jpg)
 
 راح نحدد أيضاَ الcustomdestinations-ms ونعمل مقارنة بعد كذا بالAppId مع السؤال المطلوب 
-بكل اللي داخل هذا المجلد نعمل تحديد عن طريق أداء الJumpListExplorer
+بكل اللي داخل هذا المجلد نعمل تحديد عن طريق أداة الJumpListExplorer
 
 ![cusomjump](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/customjump.jpg)
 
