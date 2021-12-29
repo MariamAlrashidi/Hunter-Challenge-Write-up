@@ -617,6 +617,6 @@ Ryan_VanAntwerp_thesis.pdf
  
  
  
- التحدي بالنهاية جميل جداً كان يشمل جزئيات عدة من كورس الDigital Forensics Professional تحديداً جزئية الWindows Registry ويتعبر تحضير جيد في هذه الجزئية .
+ التحدي بالنهاية جميل جداً كان يشمل جزئيات عدة من كورس الDigital Forensics Professional تحديداً جزئية الWindows Registry ويعتبر تحضير جيد في هذه الجزئية .
  
                                                                     
