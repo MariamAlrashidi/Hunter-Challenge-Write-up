@@ -237,7 +237,7 @@
  
   ![Show option](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/show%20options.jpg)
   
-  بعد ما إستعنا بالإداء ظهرت لي الإجابة هي الzenmap.exe
+  بعد ما إستعنا باللإداة ظهرت لي الإجابة هي الzenmap.exe
   
    ![zenmap](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap.jpg) 
  من المٌفترض يكون التاريخ كالتالي 2016-06-21 
@@ -444,7 +444,7 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 21 - One of the installed applications is a file shredder. What is the name of the application? (two words space separated)
 
-في سؤال 19 ذكرت أي نوع من ملفات ال"file shredder" تنتمي لأي أداء , ألا وهي أداء الBCWipe فبرجوع لل FTK IMage راح نشوف مسار المجلد , فراح يكون كما هو ظاهر في الصورة 
+في سؤال 19 ذكرت أي نوع من ملفات ال"file shredder" تنتمي لأي اداة , ألا وهي اداة الBCWipe فبرجوع لل FTK IMage راح نشوف مسار المجلد , فراح يكون كما هو ظاهر في الصورة 
 
 ![bcwipe](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/bcwipe.jpg)
 
@@ -483,7 +483,7 @@ Ryan_VanAntwerp_thesis.pdf
 
  
  ## 24- Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?
-  إستنادا على سؤال 9 جواب هذا السؤال يعتمد عليه 
+  إستناداً على سؤال 9 جواب هذا السؤال يعتمد عليه 
    ![zenmap](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/zenmap.jpg) 
    
  أيضاَ بما إنّه التاريخ ظاهر لي بالهجري إستعنت بتحويل التاريخ من هجري إلى ميلادي وظهر لي نفس التاريخ اللي ذكرته
