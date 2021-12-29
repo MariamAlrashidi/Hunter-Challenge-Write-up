@@ -354,7 +354,7 @@ C:\Users\***\Desktop\Hunter\Desktop
  
  من نفس الأداء نستخرج منه إيميل الموظف الذي تعاون مع المشتبه به 
  
-  ![employ](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/employe1.jpg) 
+  ![employ](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/employe11.jpg) 
 
 
 سيكون الجواب كالتالي :
