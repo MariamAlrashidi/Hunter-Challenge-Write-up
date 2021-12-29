@@ -498,7 +498,9 @@ Ryan_VanAntwerp_thesis.pdf
  
  ## 25 - A JAR file for an offensive traffic manipulation tool was executed. What is the absolute path of the file?
  
-
+في السؤال طالب ال "Offensive traffic traffic manipulation tool" بالمراجعة إلى المسار التالي
+ 
+( C:\Users\Hunter\Downloads\***)
 
 
  
