@@ -118,7 +118,7 @@
 فكرة هذا الموقع يحولها لقيمة مقروءة 
 
 
-1- هنا قيمة قبل التحويل 
+1- هنا القيمة قبل التحويل 
 ![DHCP](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/DHCP.jpg)
 
 
@@ -136,7 +136,7 @@
 
 السؤال الرابع يتطلب مني معرفة الSID الذي إستعمله المشتبه به ولمعرفة ذلك سنتحقق من ملف الSAM  هذا الملف عبارة عن Security Account Manager ملف عبارة عن قاعدة بيانات يحتوي أو يخزّن كلمات مرور المستخدمين 
 
-بالبداية نحدد ملف الSam بإستخدام برنامج الRegistry Explorer
+بالبداية نحدد ملف الSam بإستخدام الأداة الRegistry Explorer
 ![Sam File](https://github.com/MariamAlrashidi/-Hunter-challenge-Write-up-/blob/master/Pic/Sam%20file.jpg)
 
 
@@ -328,7 +328,7 @@ C:\Users\***\Desktop\Hunter\Desktop
 
 راح نفتح ملفات ال Skype database من خلال اداة Skyperious
 
-من خلال البحث في ملفات قاعدة البيانات في مجلد الSkype وجدنا المستخدم الآخر الذي تحاور معاها موظفنا 
+من خلال البحث في ملفات قاعدة البيانات في مجلد الSkype وجدنا المستخدم الآخر الذي تحاور معاه موظفنا 
 
 ![skype User](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/skypeuser11.jpg) 
 
@@ -341,7 +341,7 @@ C:\Users\***\Desktop\Hunter\Desktop
 
 ## 15- What is the name of the application both parties agreed to use to exfiltrate data and provide remote access for the external attacker in their Skype conversation?
  
- الخطوة التالية بحثنا أيضاً بنفس الأداة نقدر نوصل للمحادثة اللي تمت في Skype وبالتالي راح نوصل لجواب السؤال الآخر عن أي برنامج اتفقوا عليه
+ الخطوة التالية بحثنا أيضاً بنفس الأداة عشان نقدر نوصل للمحادثة اللي تمت في Skype وبالتالي راح نوصل لجواب السؤال الآخر عن أي برنامج اتفقوا عليه
  
  ![teamv](https://github.com/MariamAlrashidi/Hunter-challenge-Write-up-/blob/master/Pic/skypeuserteamv1.jpg) 
  
